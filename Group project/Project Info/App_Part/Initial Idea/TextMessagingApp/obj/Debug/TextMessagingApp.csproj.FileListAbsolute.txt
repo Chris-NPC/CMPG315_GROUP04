@@ -1,0 +1,20 @@
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\bin\Debug\TextMessagingApp.exe.config
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\bin\Debug\TextMessagingApp.exe
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\bin\Debug\TextMessagingApp.pdb
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\obj\Debug\TextMessagingApp.csproj.AssemblyReference.cache
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\obj\Debug\TextMessagingApp.Properties.Resources.resources
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\obj\Debug\TextMessagingApp.csproj.GenerateResource.cache
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\obj\Debug\TextMessagingApp.csproj.CoreCompileInputs.cache
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\obj\Debug\TextMessagingApp.exe
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\obj\Debug\TextMessagingApp.pdb
+C:\Users\27604\Documents\--- 315 --- Groep 4 --- Taak ---\TextMessagingApp\obj\Debug\TextMessagingApp.TextingApp.resources
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\bin\Debug\TextMessagingApp.exe.config
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\bin\Debug\TextMessagingApp.exe
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\bin\Debug\TextMessagingApp.pdb
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\obj\Debug\TextMessagingApp.csproj.AssemblyReference.cache
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\obj\Debug\TextMessagingApp.TextingApp.resources
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\obj\Debug\TextMessagingApp.Properties.Resources.resources
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\obj\Debug\TextMessagingApp.csproj.GenerateResource.cache
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\obj\Debug\TextMessagingApp.csproj.CoreCompileInputs.cache
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\obj\Debug\TextMessagingApp.exe
+C:\Users\27604\Documents\--315--Groep 4--Taak--\TextMessagingApp\TextMessagingAppFolder\obj\Debug\TextMessagingApp.pdb
