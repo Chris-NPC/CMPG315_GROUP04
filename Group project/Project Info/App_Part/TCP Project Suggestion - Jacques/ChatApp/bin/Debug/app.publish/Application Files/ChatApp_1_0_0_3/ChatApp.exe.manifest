@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ChatApp.exe" version="1.0.0.3" publicKeyToken="3945766bdfc66e4a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChatApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ChatApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChatApp.exe" size="85976">
+      <assemblyIdentity name="ChatApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FLzwIvqHXTWRUj+veVHTjEO2FiCadMgWkhTHW8XYOio=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChatApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JACQUESLAPTOP\27604" issuerKeyHash="c8be11eb36eb08aac64a019e9603411db368a695" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kDEEmbBjn6Yt3p5aNcKnp+wtL4aziOg4BMnEXr6hvzI=</DigestValue></Reference></SignedInfo><SignatureValue>u5FeS56mRT9pwLkrB0yhCRj9h3YOjKSMMpnnj7EDHyWpFeNA9VUqh5qF6s7ctEsbB3qTNfjKy4DkwWSaS0WAGGr+zKv04L1kv1CZd+hrZDcilIkMDbxGP3aXCHi8eZCV9uLQJZhReU13Xb/snytDbKxmAPcVVF+BkXoP3t9oer4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0MkkoC2+4BeO9SbDhcV0Zh7A9jvsHhNx/XDrm0SuHhrVWK3lPWN08KlKca05iJL74kBIJXFL55l0kF+PpCfpd1BYKeIghC1xNHDPa00Qy/z/Kc9k3pZOEb6u2uksbNaaccLGRs0DvchB0mCKq6J+eeyZMEkPDPlZMM4nRUNXmxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="32bfa1be5ec4c90438e888b3862f2deca7a7c2355a9ede2da69f63b099043190" Description="" Url=""><as:assemblyIdentity name="ChatApp.exe" version="1.0.0.3" publicKeyToken="3945766bdfc66e4a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JACQUESLAPTOP\27604</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xns+QjrATqakmeNMNcl9c+sRrB7ra5IZEHYqie6lGGY=</DigestValue></Reference></SignedInfo><SignatureValue>pQTIcO8E6EnzMxFHeQQx3uUOAX28HXg0ZYn0Kwq7/Ux3ZkRBhF0ELVch6CeALG5pwqkRwSwxp3r0RozKeQ1qog4vdLOcw3xFHNOTEjE+owXMU/3xCcIIJ7rFhkkiHB/HtBnPPjWqqqGSGanTA0tR5j/ye0hWfvAoLO9Yfx+bd/U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0MkkoC2+4BeO9SbDhcV0Zh7A9jvsHhNx/XDrm0SuHhrVWK3lPWN08KlKca05iJL74kBIJXFL55l0kF+PpCfpd1BYKeIghC1xNHDPa00Qy/z/Kc9k3pZOEb6u2uksbNaaccLGRs0DvchB0mCKq6J+eeyZMEkPDPlZMM4nRUNXmxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQGAQA12fS0plIq3CIP9PjyDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYASgBBAEMAUQBVAEUAUwBMAEEAUABUAE8AUABcADIANwA2ADAANDAeFw0yNDAzMjkxMzQ4MTRaFw0yNTAzMjkxOTQ4MTRaMDExLzAtBgNVBAMeJgBKAEEAQwBRAFUARQBTAEwAQQBQAFQATwBQAFwAMgA3ADYAMAA0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQySSgLb7gF471JsOFxXRmHsD2O+weE3H9cOubRK4eGtVYreU9Y3TwqUpxrTmIkvviQEglcUvnmXSQX4+kJ+l3UFgp4iCELXE0cM9rTRDL/P8pz2Telk4Rvq7a6Sxs1ppxwsZGzQO9yEHSYIqron557JkwSQ8M+VkwzidFQ1ebEQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALSi60N0kbalklOnCqTqgk0Rz/me2vIF55Y/2JTZ3doKzR5XcRgapQ6OCUKh8645JYvhhBqQgaFPeC5Qo4jl8cVjKYHApBtmynuD52g2kolLdl2WP5Uzhcn9j6dhkokfzHZbZ+SI7AaQgJuBEb+YefraT/KSJzTJGrzaO06gxRFq</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
